@@ -2,7 +2,7 @@ import { useAddress, useLogin, Web3Button } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
 
 // replace this with your contract address
-const contractAddress = "0x1fCbA150F05Bbe1C9D21d3ab08E35D682a4c41bF";
+const contractAddress = "0x4994ca9254ACf7dEC94947281bafeCEe85A41e6e";
 
 export default function Login() {
   const address = useAddress(); // Get the user's address
@@ -28,8 +28,8 @@ export default function Login() {
       </p>
 
       <p className={styles.explain}>
-        You cannot access the main page unless you own an NFT from our
-        collection!
+        This platform is secured with blockchain technology, only KAPED
+        credit line holders may enter!
       </p>
 
       <hr className={styles.divider} />
@@ -46,7 +46,7 @@ export default function Login() {
         </button>
 
         <p>
-          For demo purposes, you can claim an NFT from our collection below:
+          To access Credi.fi's credit investments, obtain a key from KAPED:
         </p>
 
         <Web3Button
